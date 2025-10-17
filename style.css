@@ -205,9 +205,9 @@ nav i{
 }
 
 #fanta{
-    top: -15%;
+    top: -10%;
     position: absolute;
-    width: 85%;
+    width: 94%;
     left: 50%;
     transform: translate(-50%, 0%);
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
@@ -224,4 +224,6 @@ nav i{
 }
 .lemon2{
     width: 70%;
+    top: -20%;
 }
+
