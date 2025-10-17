@@ -58,7 +58,7 @@ tl2.from(".lemon2",{
 }, 'ca')
 tl2.from("#fanta",{
     rotate: "90deg",
-    top: "112%",
+    top: "110%",
     left: "100%",
 }, 'ca')
 
