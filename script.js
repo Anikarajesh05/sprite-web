@@ -39,28 +39,26 @@ var tl2 = gsap.timeline({scrollTrigger:{
     // markers: true,
 }})
 
-tl2.from(".lemon1",{
-    rotate: "-90deg",
-    left: "-100%",
-    top: "110%"
-}, 'ca')
-tl2.from("#pepsi",{
-    rotate: "-90deg",
-    top: "110%",
-    left: "-100%",
-}, 'ca')
+tl2.fromTo(".lemon1",
+    {rotate:"90deg", top:"-30%", left:"50%"},   // initial guess
+    {rotate:"0deg", top:"-30%", left:"50%"},
+    'ca'
+);
+tl2.fromTo("#pepsi",
+    {rotate:"90deg", top:"-15%", left:"50%"},   // initial guess
+    {rotate:"0deg", top:"-15%", left:"50%"},
+    'ca'
+);
 
-tl2.from(".lemon2",{
-    rotate: "90deg",
-    width:"15%",
-    left: "100%",
-    top: "110%"
-}, 'ca')
-tl2.from("#fanta",{
-    rotate: "90deg",
-    top: "110%",
-    left: "100%",
-}, 'ca')
+tl2.from(".lemon2",
+    {rotate:"90deg", top:"-20%", right:"50%"},   // initial guess
+    {rotate:"0deg", top:"20%", right:"50%"},
+ 'ca')
+tl2.fromTo("#fanta",
+    {rotate:"90deg", top:"-10%", right:"50%"},   
+    {rotate:"0deg", top:"-10%", right:"50%"},
+    'ca'
+);
 
 tl2.to("#lem-cut",{
     width:"25%",
