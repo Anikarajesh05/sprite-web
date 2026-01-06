@@ -1,4 +1,6 @@
 let mm = gsap.matchMedia();
+
+
 mm.add("(min-width: 1024px)", () => {
 
   var tl = gsap.timeline({
@@ -49,6 +51,7 @@ mm.add("(min-width: 1024px)", () => {
   .to("#sprite",{ width:"15%", top:"210%", left:"42%" }, "ca");
 
 });
+
 
 
 mm.add("(max-width: 768px)", () => {
