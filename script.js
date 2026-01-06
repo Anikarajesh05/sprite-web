@@ -100,7 +100,8 @@ mm.add("(max-width: 768px)", () => {
     { rotate:0,  top:"54%", right:"45%" },
     "ca"
   )
-  .to("#lem-cut",{ width:"25%", left:"37%", top:"254%" }, "ca")
-  .to("#sprite",{ width:"16%", top:"256%", left:"42%" }, "ca");
+  .to("#lem-cut",{ width:"25%", left:"37%", top:"264%" }, "ca")
+  .to("#sprite",{ width:"16%", top:"266%", left:"42%" }, "ca");
 
 });
+
